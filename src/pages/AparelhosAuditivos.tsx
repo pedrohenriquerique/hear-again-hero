@@ -140,26 +140,25 @@ const AparelhosAuditivos = () => {
             </div>
 
             <h1
-              className="text-4xl md:text-5xl font-bold mb-5 leading-tight"
+              className="text-3xl md:text-4xl font-bold mb-5 leading-tight"
               style={{ color: "white", fontFamily: "'Playfair Display', serif" }}
             >
-              Volte a ouvir com<br />
-              clareza e segurança
+              Aparelho auditivo moderno e discreto, com adaptação feita por fonoaudióloga e suporte depois da compra
             </h1>
 
             <p className="text-base md:text-lg mb-8" style={{ color: "rgba(255,255,255,0.85)", lineHeight: 1.75 }}>
-              Soluções auditivas completas com acompanhamento profissional para devolver qualidade de vida a você e à sua família.
+              Na Auris Centro Auditivo, você faz a avaliação da sua audição, recebe a indicação do aparelho certo para o seu grau de perda e continua com suporte depois da compra, com pilhas, moldes, manutenção e conserto nas unidades de Campinas, Sumaré, Hortolândia, Paulínia, Cosmópolis e Artur Nogueira.
             </p>
 
             <div className="flex flex-wrap gap-4 items-center">
-              <BtnPrimary href={WHATSAPP_URL} onClick={() => trackWhatsApp("Quero agendar minha avaliação auditiva")} large>
-                <Calendar size={18} />
-                Quero agendar minha avaliação auditiva
+              <BtnPrimary href={WHATSAPP_URL} onClick={() => trackWhatsApp("Quero meu aparelho auditivo")} large>
+                <HeadphonesIcon size={18} />
+                Quero meu aparelho auditivo
               </BtnPrimary>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-6">
-              {["+ de 20 anos de experiência", "Equipe especializada", "Tecnologia de ponta"].map((t) => (
+              {["+ de 20 anos de experiência", "Adaptação com fonoaudióloga", "Suporte depois da compra"].map((t) => (
                 <div key={t} className="flex items-center gap-2 text-sm" style={{ color: "rgba(255,255,255,0.80)" }}>
                   <CheckCircle2 size={15} style={{ color: "hsl(var(--primary-light))" }} />
                   {t}
@@ -187,9 +186,9 @@ const AparelhosAuditivos = () => {
 
           <div className="grid md:grid-cols-3 gap-6 mb-10">
             {[
-              "Você tem aumentado o volume da televisão cada vez mais?",
-              "Precisa pedir para repetir o que foi dito?",
-              "Evita conversas em família porque sente dificuldade para entender?",
+              "Já sabe que precisa de aparelho auditivo e quer escolher o modelo certo para a sua rotina?",
+              "Seu aparelho parou de funcionar, está chiando, falhando ou com o som baixo?",
+              "O molde do seu aparelho está ressecado ou já não encaixa direito?",
             ].map((item, i) => (
               <div
                 key={i}
@@ -214,14 +213,14 @@ const AparelhosAuditivos = () => {
             style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(255,255,255,0.12)" }}
           >
             <p className="text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.85)", maxWidth: 620 }}>
-              Esses são sinais comuns de perda auditiva.{" "}
-              <strong style={{ color: "white" }}>Quanto antes você buscar uma avaliação especializada,</strong>{" "}
-              maiores são as chances de recuperar sua qualidade de vida.
+              Na Auris você encontra{" "}
+              <strong style={{ color: "white" }}>tudo o que precisa para voltar a ouvir bem, em um só lugar:</strong>{" "}
+              aparelhos auditivos, pilhas, conserto, moldes e tampões, mesmo que o seu aparelho tenha sido comprado em outro lugar.
             </p>
             <div className="flex-shrink-0">
-              <BtnPrimary href={WHATSAPP_URL} onClick={() => trackWhatsApp("Falar com especialista agora")}>
+              <BtnPrimary href={WHATSAPP_URL} onClick={() => trackWhatsApp("Quero meu aparelho auditivo")}>
                 <Phone size={15} />
-                Falar com especialista agora
+                Quero meu aparelho auditivo
               </BtnPrimary>
             </div>
           </div>
@@ -273,22 +272,20 @@ const AparelhosAuditivos = () => {
               <h2 className="text-2xl md:text-3xl font-bold mt-2 mb-1">Auris Centro Auditivo</h2>
               <div className="h-1 w-12 rounded mb-5" style={{ background: "hsl(var(--primary))" }} />
               <p className="text-base mb-4" style={{ color: "hsl(var(--muted-foreground))" }}>
-                Na <strong style={{ color: "hsl(var(--foreground))" }}>Auris Centro Auditivo</strong>, você encontra
-                atendimento especializado em saúde auditiva com foco total na sua necessidade individual.
+                Desde <strong style={{ color: "hsl(var(--foreground))" }}>2002</strong>, a Auris Centro Auditivo trabalha para devolver a quem tem perda auditiva o prazer de conversar, participar dos encontros de família e viver o dia a dia sem precisar pedir para as pessoas repetirem.
               </p>
               <p className="text-base mb-4" style={{ color: "hsl(var(--muted-foreground))" }}>
-                Atuando desde <strong style={{ color: "hsl(var(--foreground))" }}>2002</strong>, nossa equipe realiza
-                uma avaliação completa e indica a melhor solução para o seu caso, com acompanhamento profissional em
-                todas as etapas — desde o diagnóstico até a adaptação do aparelho auditivo.
+                Trabalhamos com aparelhos auditivos de marcas importadas, com modelos discretos, recarregáveis e com conexão para celular e TV. Se você já tem o seu exame e a indicação do aparelho, é só trazer. Se ainda não tem, também fazemos a audiometria.
               </p>
               <p className="text-base mb-6" style={{ color: "hsl(var(--muted-foreground))" }}>
-                Aqui, cada paciente é atendido com{" "}
+                Depois da compra, a Auris continua com você, com{" "}
                 <em className="not-italic font-semibold" style={{ color: "hsl(var(--primary-dark))" }}>
-                  atenção, clareza e orientação personalizada.
-                </em>
+                  adaptação acompanhada pela fonoaudióloga, pilhas, moldes, manutenção e conserto,
+                </em>{" "}
+                para que o seu aparelho funcione bem por muitos anos.
               </p>
-              <BtnOutline href={WHATSAPP_URL} onClick={() => trackWhatsApp("Saiba mais")}>
-                Saiba mais <ArrowRight size={15} />
+              <BtnOutline href={WHATSAPP_URL} onClick={() => trackWhatsApp("Quero meu aparelho auditivo")}>
+                Quero meu aparelho auditivo <ArrowRight size={15} />
               </BtnOutline>
             </div>
           </div>
@@ -310,12 +307,11 @@ const AparelhosAuditivos = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto mb-10">
             {[
-              { icon: HeadphonesIcon, title: "Aparelhos modernos e discretos", desc: "Tecnologia de ponta com design discreto e alta eficiência para cada estilo de vida." },
-              { icon: Stethoscope, title: "Avaliação individualizada", desc: "Diagnóstico preciso e personalizado para identificar suas necessidades específicas." },
-              { icon: CheckCircle2, title: "Acompanhamento profissional", desc: "Suporte completo do exame à plena adaptação do aparelho auditivo." },
-              { icon: Star, title: "Facilidade de pagamento", desc: "Condições especiais de parcelamento para que sua saúde auditiva seja acessível." },
-              { icon: Phone, title: "Atendimento humanizado", desc: "Cada paciente recebe atenção exclusiva, com escuta ativa e orientação clara." },
-              { icon: Calendar, title: "Agendamento fácil e rápido", desc: "Marque sua avaliação com comodidade pelo WhatsApp e seja atendido no horário preferido." },
+              { icon: Star, title: "Mais de 20 anos de experiência em aparelhos auditivos" },
+              { icon: Stethoscope, title: "Adaptação feita por fonoaudióloga" },
+              { icon: CheckCircle2, title: "Condições facilitadas de pagamento" },
+              { icon: MapPin, title: "6 unidades em 6 cidades diferentes, com suporte depois da compra" },
+              { icon: HeadphonesIcon, title: "Conserto e moldes também para aparelhos comprados em outros lugares" },
             ].map((item, i) => (
               <div
                 key={i}
@@ -328,20 +324,17 @@ const AparelhosAuditivos = () => {
                 >
                   <item.icon size={20} style={{ color: "hsl(var(--primary))" }} />
                 </div>
-                <h3 className="font-bold text-sm mb-2" style={{ color: "hsl(var(--foreground))", fontFamily: "'Open Sans', sans-serif" }}>
+                <h3 className="font-bold text-sm" style={{ color: "hsl(var(--foreground))", fontFamily: "'Open Sans', sans-serif" }}>
                   {item.title}
                 </h3>
-                <p className="text-sm leading-relaxed" style={{ color: "hsl(var(--muted-foreground))" }}>
-                  {item.desc}
-                </p>
               </div>
             ))}
           </div>
 
           <div className="text-center">
-            <BtnPrimary href={WHATSAPP_URL} onClick={() => trackWhatsApp("Agendar avaliação pelo WhatsApp")} large>
-              <Calendar size={18} />
-              Agendar avaliação pelo WhatsApp
+            <BtnPrimary href={WHATSAPP_URL} onClick={() => trackWhatsApp("Quero meu aparelho auditivo")} large>
+              <HeadphonesIcon size={18} />
+              Quero meu aparelho auditivo
             </BtnPrimary>
           </div>
         </div>
@@ -364,18 +357,18 @@ const AparelhosAuditivos = () => {
             {[
               {
                 step: "01",
-                title: "Agende sua avaliação auditiva",
-                desc: "Entre em contato com nossa equipe e escolha o melhor dia e horário para seu atendimento.",
+                title: "Fale com a nossa equipe",
+                desc: "Tire suas dúvidas sobre aparelho auditivo com a nossa equipe e agende seu horário na unidade mais perto de você.",
               },
               {
                 step: "02",
-                title: "Realize seus exames com especialista",
-                desc: "A fonoaudióloga realiza a avaliação auditiva completa para identificar seu grau de perda e suas necessidades específicas.",
+                title: "Traga o seu exame",
+                desc: "É só trazer o seu exame e a indicação que a gente apresenta os modelos adequados para o seu caso. Se ainda não tem, também fazemos a audiometria.",
               },
               {
                 step: "03",
-                title: "Receba a indicação e inicie a adaptação",
-                desc: "Com base no diagnóstico, indicamos o aparelho auditivo mais adequado e acompanhamos todo o processo de adaptação para garantir conforto e eficiência.",
+                title: "Faça a adaptação do aparelho",
+                desc: "O seu aparelho é regulado e ajustado pela fonoaudióloga de acordo com o seu grau de perda, o seu conforto e as situações do seu dia a dia, com acompanhamento até você se acostumar com ele.",
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-6 mb-0 last:mb-0">
@@ -427,14 +420,14 @@ const AparelhosAuditivos = () => {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => trackWhatsApp("Agendar minha avaliação agora")}
+            onClick={() => trackWhatsApp("Quero escolher meu aparelho auditivo")}
             className="inline-flex items-center gap-3 px-8 py-4 rounded font-bold text-base transition-colors duration-200 cursor-pointer border-0 no-underline"
             style={{ background: "white", color: "hsl(var(--primary-dark))" }}
             onMouseEnter={(e) => (e.currentTarget.style.background = "hsl(var(--primary-soft))")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "white")}
           >
-            <Calendar size={18} />
-            Agendar minha avaliação agora
+            <HeadphonesIcon size={18} />
+            Quero escolher meu aparelho auditivo
           </a>
         </div>
       </section>
