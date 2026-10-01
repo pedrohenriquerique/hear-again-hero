@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# Remix of Auris Hearing Health
 
-## Project info
+faça um apgina para um centro auditivo seguindo rigorosamente a copy e a identidade visual anexidada:
+ BOX 1 – INÍCIO
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Headline
+ Volte a ouvir com clareza e segurança
 
-## How can I edit this code?
+Subheadline
+ Soluções auditivas completas com acompanhamento profissional para devolver qualidade de vida a você e à sua família
 
-There are several ways of editing your application.
+Botão principal
+ Quero agendar minha avaliação auditiva
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+BOX 2 – DOR
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Você tem aumentado o volume da televisão cada vez mais?
+ Precisa pedir para repetir o que foi dito?
+ Evita conversas em família porque sente dificuldade para entender?
 
-Follow these steps:
+Esses são sinais comuns de perda auditiva. Quanto antes você buscar uma avaliação especializada, maiores são as chances de recuperar sua qualidade de vida.
+
+Botão
+ Falar com especialista agora
+
+
+
+
+
+BOX 3 – APRESENTAÇÃO DA CLÍNICA
+
+Na Auris Centro Auditivo, você encontra atendimento especializado em saúde auditiva com foco total na sua necessidade individual.
+
+Atuando desde 2002, nossa equipe realiza uma avaliação completa e indica a melhor solução para o seu caso, com acompanhamento profissional em todas as etapas, desde o diagnóstico até a adaptação do aparelho auditivo.
+
+Aqui, cada paciente é atendido com atenção, clareza e orientação personalizada.
+
+
+
+
+
+BOX 4 – BENEFÍCIOS
+
+• Aparelhos auditivos modernos, tecnológicos e discretos
+ • Avaliação individualizada com diagnóstico preciso
+ • Acompanhamento profissional durante todo o processo
+ • Facilidade de pagamento
+ • Atendimento humanizado e personalizado
+
+Botão
+ Agendar avaliação pelo WhatsApp
+
+
+
+
+
+BOX 5 – COMO FUNCIONA
+
+Agende sua avaliação auditiva
+ Entre em contato com nossa equipe e escolha o melhor dia e horário para seu atendimento.
+
+
+
+Realize seus exames com especialista
+ A fonoaudióloga realiza a avaliação auditiva completa para identificar seu grau de perda e suas necessidades específicas.
+
+
+
+Receba a indicação e inicie a adaptação
+ Com base no diagnóstico, indicamos o aparelho auditivo mais adequado e acompanhamos todo o processo de adaptação para garantir conforto e eficiência.
+
+
+
+
+
+
+
+BOX 6 – CTA FINAL
+
+Volte a ouvir com clareza. Volte a participar das conversas.
+ Dê o primeiro passo para recuperar sua qualidade de vida hoje.
+
+Botão final
+ Agendar minha avaliação agora
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/c75bdad0-85a7-4a7c-951d-62094020834b).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+git clone <this-repository-url>
+cd <repository-name>
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
