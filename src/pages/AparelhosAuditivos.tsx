@@ -307,11 +307,36 @@ const AparelhosAuditivos = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto mb-10">
             {[
-              { icon: Star, title: "Mais de 20 anos de experiência em aparelhos auditivos" },
-              { icon: Stethoscope, title: "Adaptação feita por fonoaudióloga" },
-              { icon: CheckCircle2, title: "Condições facilitadas de pagamento" },
-              { icon: MapPin, title: "6 unidades em 6 cidades diferentes, com suporte depois da compra" },
-              { icon: HeadphonesIcon, title: "Conserto e moldes também para aparelhos comprados em outros lugares" },
+              {
+                icon: HeadphonesIcon,
+                title: "Aparelhos modernos e discretos",
+                desc: "Modelos intracanais, retroauriculares e recarregáveis, com conexão para celular e TV.",
+              },
+              {
+                icon: Star,
+                title: "Mais de 20 anos de experiência",
+                desc: "Desde 2002 ajudando pessoas a voltar a ouvir bem com o aparelho certo.",
+              },
+              {
+                icon: Stethoscope,
+                title: "Adaptação feita por fonoaudióloga",
+                desc: "Aparelho ajustado para o seu grau de perda, o seu conforto e a sua rotina.",
+              },
+              {
+                icon: CheckCircle2,
+                title: "Facilidade de pagamento",
+                desc: "Condições especiais de parcelamento para o aparelho caber no seu orçamento.",
+              },
+              {
+                icon: Calendar,
+                title: "Conserto e moldes",
+                desc: "Atendemos também aparelhos comprados em outros lugares, com moldes feitos sob medida.",
+              },
+              {
+                icon: MapPin,
+                title: "6 unidades perto de você",
+                desc: "Campinas, Sumaré, Hortolândia, Paulínia, Cosmópolis e Artur Nogueira.",
+              },
             ].map((item, i) => (
               <div
                 key={i}
@@ -324,9 +349,12 @@ const AparelhosAuditivos = () => {
                 >
                   <item.icon size={20} style={{ color: "hsl(var(--primary))" }} />
                 </div>
-                <h3 className="font-bold text-sm" style={{ color: "hsl(var(--foreground))", fontFamily: "'Open Sans', sans-serif" }}>
+                <h3 className="font-bold text-sm mb-2" style={{ color: "hsl(var(--foreground))", fontFamily: "'Open Sans', sans-serif" }}>
                   {item.title}
                 </h3>
+                <p className="text-sm leading-relaxed" style={{ color: "hsl(var(--muted-foreground))" }}>
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>
