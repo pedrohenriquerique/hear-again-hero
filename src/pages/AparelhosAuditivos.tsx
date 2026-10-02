@@ -3,13 +3,16 @@ import heroProfissional from "@/assets/hero-profissional.jpg";
 import {
   Phone,
   CheckCircle2,
-  Calendar,
   Stethoscope,
   HeadphonesIcon,
   Star,
   ArrowRight,
   MapPin,
   Clock,
+  Battery,
+  Ear,
+  Wrench,
+  CreditCard,
 } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/551925126487?text=" + encodeURIComponent("Olá! Gostaria de saber mais sobre aparelhos auditivos.");
@@ -309,8 +312,23 @@ const AparelhosAuditivos = () => {
             {[
               {
                 icon: HeadphonesIcon,
-                title: "Aparelhos modernos e discretos",
+                title: "Aparelhos auditivos modernos e discretos",
                 desc: "Modelos intracanais, retroauriculares e recarregáveis, com conexão para celular e TV.",
+              },
+              {
+                icon: Battery,
+                title: "Pilhas para aparelho auditivo",
+                desc: "Pilhas nos tamanhos dos principais modelos, para você nunca ficar sem ouvir por falta de bateria.",
+              },
+              {
+                icon: Ear,
+                title: "Tampão auditivo",
+                desc: "Tampões de proteção para quem precisa se proteger do barulho ou evitar a entrada de água no ouvido.",
+              },
+              {
+                icon: Wrench,
+                title: "Conserto e moldes",
+                desc: "Atendemos também aparelhos comprados em outros lugares, com moldes feitos sob medida.",
               },
               {
                 icon: Star,
@@ -318,24 +336,9 @@ const AparelhosAuditivos = () => {
                 desc: "Desde 2002 ajudando pessoas a voltar a ouvir bem com o aparelho certo.",
               },
               {
-                icon: Stethoscope,
-                title: "Adaptação feita por fonoaudióloga",
-                desc: "Aparelho ajustado para o seu grau de perda, o seu conforto e a sua rotina.",
-              },
-              {
-                icon: CheckCircle2,
+                icon: CreditCard,
                 title: "Facilidade de pagamento",
                 desc: "Condições especiais de parcelamento para o aparelho caber no seu orçamento.",
-              },
-              {
-                icon: Calendar,
-                title: "Conserto e moldes",
-                desc: "Atendemos também aparelhos comprados em outros lugares, com moldes feitos sob medida.",
-              },
-              {
-                icon: MapPin,
-                title: "6 unidades perto de você",
-                desc: "Campinas, Sumaré, Hortolândia, Paulínia, Cosmópolis e Artur Nogueira.",
               },
             ].map((item, i) => (
               <div
